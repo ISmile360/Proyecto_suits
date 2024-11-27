@@ -1,0 +1,243 @@
+/* Importación de la fuente con estilo retro */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); /* Fuente retro para títulos */
+
+/* Estilos generales del body */
+body {
+    background-color: #0e1d2b; /* Fondo oscuro, similar a los temas de LoL */
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para los títulos principales */
+h1, h2, h3 {
+    font-family: 'Press Start 2P', cursive; /* Fuente estilo retro de videojuegos */
+    font-weight: bold;
+    color: #d3af37; /* Color dorado, similar al de LoL */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 25px rgba(211, 175, 55, 0.7); /* Efecto de resplandor dorado */
+    text-transform: uppercase; /* Mayúsculas para un estilo épico */
+    letter-spacing: 2px; /* Espaciado entre letras */
+    text-align: center;
+    margin-bottom: 20px;
+    transition: text-shadow 0.3s ease, color 0.3s ease;
+}
+
+h1:hover, h2:hover, h3:hover {
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8), 0 0 30px rgba(255, 204, 0, 0.9); /* Resplandor aumentado al pasar el mouse */
+    color: #ffb300;
+}
+
+/* Estilo para subtítulos */
+h4, h5, h6 {
+    font-family: 'Press Start 2P', cursive;
+    font-weight: normal;
+    color: #d3af37;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+    letter-spacing: 1px;
+}
+
+/* Estilo para los párrafos */
+p {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2rem;
+    color: #ffffff;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Enlaces con estilo visual de LoL */
+a {
+    color: #d3af37;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #ffb300; /* Color dorado más intenso */
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.7), 0 0 15px rgba(255, 179, 0, 0.7);
+}
+
+/* Estilos para los botones */
+.btn-primary {
+    background-color: #d3af37;
+    color: #ffffff;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #ffb300;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+    transform: scale(1.05);
+    color: #fff;
+}
+
+/* Efectos de sombras en texto */
+.text-shadow-effect {
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8), 0 0 15px rgba(255, 204, 0, 0.7);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Estilo para los íconos */
+.icon {
+    font-size: 2rem;
+    color: #d3af37;
+    transition: all 0.3s ease;
+}
+
+.icon:hover {
+    color: #ffb300;
+    transform: scale(1.2);
+    text-shadow: 0 0 10px rgba(255, 204, 0, 0.7);
+}
+
+/* Estilos para tablas */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #444;
+    font-size: 1rem;
+    color: #d3af37;
+}
+
+table th {
+    background-color: #d3af37;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+table td {
+    background-color: #d3af37;
+}
+
+table tr:nth-child(even) {
+    background-color: #d3af37;
+}
+
+table tr:hover {
+    background-color: #d3af37;
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Estilo para formularios */
+.form-floating {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    background-color: #2c3e50;
+    border: 1px solid #444;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+    background-color: #1b2a38;
+    border-color: #d3af37;
+    box-shadow: 0 0 5px rgba(211, 175, 55, 0.8);
+}
+
+/* Estilos para modales */
+.modal-content {
+    background-color: #2c3e50;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.modal-header {
+    background-color: #1d2b39;
+    border-bottom: 2px solid #444;
+}
+
+.modal-footer {
+    background-color: #1d2b39;
+    border-top: 2px solid #444;
+}
+
+.modal-title {
+    font-family: 'Press Start 2P', cursive;
+    color: #d3af37;
+}
+
+.modal-body {
+    background-color: #2c3e50;
+}
+
+/* Estilo para el contenedor del modal */
+.modal-dialog {
+    max-width: 600px;
+}
+
+/* Estilo para el contenedor de la página */
+.container {
+    padding: 40px;
+}
+
+/* Fondo del contenedor principal */
+.bg-card {
+    background-color: #1d2b39;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo para el contenedor de la tabla */
+#contenido_campeones {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+/* Estilos para botones en el modal */
+.btn-secondary {
+    background-color: #444;
+    color: #fff;
+}
+
+.btn-secondary:hover {
+    background-color: #666;
+    transform: scale(1.05);
+}
+
+/* Estilo para los botones de acción en las tablas */
+.btn-action {
+    background-color: #d3af37;
+    color: white;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    padding: 6px 12px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-action:hover {
+    background-color: #ffb300;
+    transform: scale(1.05);
+}
+
+/* Estilo para los íconos de botones */
+.btn-action .icon {
+    margin-right: 8px;
+    transition: transform 0.3s ease;
+}
+
+.btn-action:hover .icon {
+    transform: rotate(20deg);
+}

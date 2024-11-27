@@ -1,0 +1,110 @@
+/* Fuente principal - 'Press Start 2P' */
+body {
+    background: linear-gradient(90deg, #1b2a38, #1a1a1a);
+    font-family: 'Press Start 2P', cursive; /* Fuente estilo retro de videojuegos */
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del contenedor principal */
+.bg-card {
+    background-color: #1d2b39; /* Fondo oscuro con un toque gris azulado */
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); /* Sombra intensa para dar profundidad */
+    padding: 25px;
+    color: #fff;
+    border: 2px solid #5c6e77; /* Borde metálico con color gris oscuro */
+}
+
+/* Estilo del título */
+h2 {
+    font-size: 40px;
+    color: #d3af37; /* Amarillo dorado */
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8), 0 0 15px rgba(255, 204, 0, 0.7);
+}
+
+/* Encabezado de las tablas */
+.table th {
+    background-color: #5c4d35; /* Marrón metálico */
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Estilo de botones */
+.btn-primary {
+    background-color: #d3af37; /* Color dorado cálido */
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 10px 20px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #d3af37; /* Dorado más oscuro */
+    transform: scale(1.05);
+}
+
+/* Botón de peligro (rojo) */
+.btn-danger {
+    background-color: #b83d3d; /* Rojo oscuro tipo LOL */
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 10px 20px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-danger:hover {
+    background-color: #9e3131; /* Rojo más oscuro */
+    transform: scale(1.05);
+}
+
+/* Botón secundario */
+.btn-secondary {
+    background-color: #5c6e77; /* Gris metálico */
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.btn-secondary:hover {
+    background-color: #4b5b64; /* Gris más oscuro */
+}
+
+/* Estilo de los modales */
+.modal-content {
+    background-color: #1e262f; /* Fondo más oscuro para modales */
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6); /* Sombra más fuerte */
+    color: #fff;
+}
+
+.modal-header, .modal-footer {
+    border: none;
+}
+
+/* Estilo de los campos de formulario */
+.form-floating .form-control {
+    border: 2px solid #d3af37; /* Borde dorado metálico */
+    border-radius: 15px;
+    background-color: #333; /* Fondo oscuro para el campo */
+    color: #fff;
+    padding: 15px;
+}
+
+.form-floating label {
+    color: #d3af37; /* Color de texto dorado en etiquetas */
+    font-weight: 600;
+}

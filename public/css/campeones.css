@@ -1,0 +1,335 @@
+/* Importación de la fuente con estilo retro */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); /* Fuente retro para títulos */
+
+/* Estilos generales del body */
+body {
+    background-color: #0e1d2b; /* Fondo oscuro, similar a los temas de LoL */
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para los títulos principales */
+h1, h2, h3 {
+    font-family: 'Press Start 2P', cursive; /* Fuente estilo retro de videojuegos */
+    font-weight: bold;
+    color: #d3af37; /* Color dorado, similar al de LoL */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 25px rgba(211, 175, 55, 0.7); /* Efecto de resplandor dorado */
+    text-transform: uppercase; /* Mayúsculas para un estilo épico */
+    letter-spacing: 2px; /* Espaciado entre letras */
+    text-align: center;
+    margin-bottom: 20px;
+    transition: text-shadow 0.3s ease, color 0.3s ease;
+}
+
+h1:hover, h2:hover, h3:hover {
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8), 0 0 30px rgba(255, 204, 0, 0.9); /* Resplandor aumentado al pasar el mouse */
+    color: #ffb300;
+}
+
+/* Estilo para subtítulos */
+h4, h5, h6 {
+    font-family: 'Press Start 2P', cursive;
+    font-weight: normal;
+    color: #d3af37;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+    letter-spacing: 1px;
+}
+
+/* Estilo para los párrafos */
+p {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2rem;
+    color: #ffffff;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Enlaces con estilo visual de LoL */
+a {
+    color: #d3af37;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #ffb300; /* Color dorado más intenso */
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.7), 0 0 15px rgba(255, 179, 0, 0.7);
+}
+
+/* Estilos para los botones */
+.btn-primary {
+    background-color: #d3af37;
+    color: #ffffff;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #ffb300;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+    transform: scale(1.05);
+    color: #fff;
+}
+
+/* Efectos de sombras en texto */
+.text-shadow-effect {
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8), 0 0 15px rgba(255, 204, 0, 0.7);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Estilo para los íconos */
+.icon {
+    font-size: 2rem;
+    color: #d3af37;
+    transition: all 0.3s ease;
+}
+
+.icon:hover {
+    color: #ffb300;
+    transform: scale(1.2);
+    text-shadow: 0 0 10px rgba(255, 204, 0, 0.7);
+}
+
+/* Estilos para tablas */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #444;
+    font-size: 1rem;
+    color: #d3af37;
+}
+
+table th {
+    background-color: #1d2b39;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+table td {
+    background-color: #1b2a38;
+}
+
+table tr:nth-child(even) {
+    background-color: #223348;
+}
+
+table tr:hover {
+    background-color: #2c3e50;
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Estilo para formularios */
+.form-floating {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    background-color: #2c3e50;
+    border: 1px solid #444;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+    background-color: #1b2a38;
+    border-color: #d3af37;
+    box-shadow: 0 0 5px rgba(211, 175, 55, 0.8);
+}
+
+/* Estilos para modales */
+.modal-content {
+    background-color: #2c3e50;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.modal-header {
+    background-color: #1d2b39;
+    border-bottom: 2px solid #444;
+}
+
+.modal-footer {
+    background-color: #1d2b39;
+    border-top: 2px solid #444;
+}
+
+.modal-title {
+    font-family: 'Press Start 2P', cursive;
+    color: #d3af37;
+}
+
+.modal-body {
+    background-color: #2c3e50;
+}
+
+/* Estilo para el contenedor del modal */
+.modal-dialog {
+    max-width: 600px;
+}
+
+/* Estilo para el contenedor de la página */
+.container {
+    padding: 40px;
+}
+
+/* Fondo del contenedor principal */
+.bg-card {
+    background-color: #1d2b39;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo para el contenedor de la tabla */
+#contenido_campeones {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+/* Estilos para botones en el modal */
+.btn-secondary {
+    background-color: #444;
+    color: #fff;
+}
+
+.btn-secondary:hover {
+    background-color: #666;
+    transform: scale(1.05);
+}
+
+/* Estilo para los botones de acción en las tablas */
+.btn-action {
+    background-color: #d3af37;
+    color: white;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    padding: 6px 12px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-action:hover {
+    background-color: #ffb300;
+    transform: scale(1.05);
+}
+
+/* Estilo para los íconos de botones */
+.btn-action .icon {
+    margin-right: 8px;
+    transition: transform 0.3s ease;
+}
+
+.btn-action:hover .icon {
+    transform: rotate(20deg);
+}
+/* Estilo para las cards */
+.card {
+    background-color: #343a40; /* Fondo oscuro para las cards */
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease; /* Transición para transformar, sombra y filtro */
+}
+
+/* Efecto de hover en la card */
+.card:hover {
+    transform: scale(1.05); /* Aumentar el tamaño al pasar el ratón */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7); /* Sombra más grande */
+    z-index: 10; /* Asegura que la card se sobreponga */
+    filter: brightness(1.2); /* Efecto de brillo en hover */
+}
+
+/* Animación en la imagen de la card */
+.card img {
+    object-fit: cover;
+    transition: transform 0.3s ease; /* Transición para suavizar la animación */
+}
+
+/* Efecto de zoom en la imagen */
+.card:hover img {
+    transform: scale(1.1); /* Hace que la imagen se agrande un poco */
+}
+
+/* Estilo del cuerpo de la card */
+.card-body {
+    padding: 1rem;
+    transition: background-color 0.3s ease; /* Transición suave en el fondo */
+}
+
+/* Efecto de cambio de color en el cuerpo de la card al pasar el ratón */
+.card:hover .card-body {
+    background-color: #2c3e50; /* Fondo más oscuro para el cuerpo de la card */
+}
+
+/* Estilo para el título de la card */
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #d3af37; /* Color dorado */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6); /* Efecto de sombra en el título */
+    transition: color 0.3s ease, transform 0.3s ease; /* Añadir transición al color y movimiento */
+}
+
+/* Efecto de animación en el título */
+.card:hover .card-title {
+    color: #ffb300; /* Cambiar color a dorado brillante */
+    transform: translateY(-5px); /* Mover el título hacia arriba */
+}
+
+/* Estilo para el texto de la card */
+.card-text {
+    font-size: 1rem;
+    color: #ffffff; /* Texto blanco */
+    line-height: 1.6;
+    transition: color 0.3s ease; /* Transición para el color del texto */
+}
+
+/* Agregar un efecto al hacer hover sobre el texto */
+.card:hover .card-text {
+    color: #ffb300; /* Cambio de color al pasar el ratón */
+}
+
+/* Sombra interna sutil para las cards */
+.card {
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4);
+    transition: box-shadow 0.4s ease, transform 0.4s ease;
+}
+
+/* Animación de entrada para la card cuando aparece en la pantalla */
+.card {
+    opacity: 0;
+    transform: translateY(30px); /* Desplazamiento inicial */
+    animation: fadeInUp 0.5s forwards; /* Aparecer con desplazamiento */
+}
+
+/* Keyframes para la animación de entrada */
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0); /* Regresa a la posición original */
+    }
+}
+
+
+
+

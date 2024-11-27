@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body {
+    background: linear-gradient(135deg, #0b0e14, #1c1f26);
+    font-family: 'Press Start 2P', cursive;
+    color: #d4af37; /* Oro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Container styling */
+.fondo {
+    background: linear-gradient(135deg, #222, #2b2b36);
+    border-radius: 15px;
+    padding: 40px;
+    text-align: center;
+    border: 3px solid #d4af37; /* Oro */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+}
+
+/* Title styling */
+h3 {
+    color: #d4af37; /* Oro */
+    text-shadow: 0 0 10px rgba(212, 175, 55, 0.8), 0 0 20px rgba(212, 175, 55, 0.6);
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* Input fields */
+.form-floating {
+    margin-bottom: 20px;
+}
+
+.form-floating input {
+    background-color: #1c1f26;
+    border: 2px solid #555;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    padding: 15px;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.form-floating input:focus {
+    border-color: #d4af37;
+    box-shadow: 0 0 8px rgba(212, 175, 55, 0.8);
+    outline: none;
+}
+
+.form-floating label {
+    color: #aaa;
+}
+
+/* Buttons */
+.btn-primary, .btn-danger {
+    background: linear-gradient(135deg, #d4af37, #ffcc5c);
+    color: #1c1f26;
+    border: none;
+    font-weight: bold;
+    padding: 12px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    border-radius: 8px;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.btn-primary:hover {
+    background: #ffcc5c;
+    transform: scale(1.05);
+}
+
+.btn-danger {
+    background: linear-gradient(135deg, #333, #555);
+    color: #fff;
+}
+
+.btn-danger:hover {
+    background: #444;
+}
+
+/* Show password icon */
+.show-password {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    color: #d4af37;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.show-password:hover {
+    color: #ffcc5c;
+}
+
