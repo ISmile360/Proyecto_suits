@@ -102,5 +102,5 @@
     </div>
 </div>
 
-<script src="./public/js/tabla.js"></script>
+<script src="./public/js/campeones.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
